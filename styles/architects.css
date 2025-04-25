@@ -174,7 +174,7 @@ main > section{
   /* responsive media query */
   /* Small size device */
   @media screen and (max-width:576px){
-    .navbar, 
+    .navbar,
     .teams{
         flex-direction: column;
     }
