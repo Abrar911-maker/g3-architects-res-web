@@ -178,9 +178,7 @@ main > section{
     .teams{
         flex-direction: column;
     }
-    .nav-links{
-      gap: 20px;
-    }
+    
     .fact-description,
     .feature-description,
     .section-title{
