@@ -178,13 +178,13 @@ main > section{
     .teams{
         flex-direction: column;
     }
-    
+
     .fact-description,
     .feature-description,
     .section-title{
       text-align: center;
     }
-    .some-facts{
+    .some-facts, .our-features{
       justify-items: center;
     }
     .facts-container{
@@ -218,7 +218,8 @@ main > section{
       justify-content: center;
     }
     .facts-container, 
-    .sponsor-companies{
+    .sponsor-companies,
+    .our-features{
       justify-items: center;
     }
     .fact-description,
