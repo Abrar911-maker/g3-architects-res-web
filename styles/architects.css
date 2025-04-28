@@ -34,7 +34,7 @@
     border: none;
 }
 
-main{
+main, footer{
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -53,10 +53,12 @@ main > section{
   .navbar{
    justify-content: space-between;
    align-items: center;
+   
   }
   .brand{
     font-weight: 700;
     font-size: 2.8rem;
+    color: #f78d13;
   }
 
   .nav-item{
@@ -67,6 +69,7 @@ main > section{
   .nav-link{
     text-decoration: none;
     font-weight: 500px;
+    color: #FF900E;
   }
 
   .navbar, .banner{
@@ -85,6 +88,8 @@ main > section{
   .banner-title{
     font-weight: 700;
     font-size: 4rem;
+    background-color: rgb(253, 232, 213);
+    border-radius: 8px;
   }
 
   .banner-img{
@@ -141,6 +146,7 @@ main > section{
     text-align: center;
     align-items: center;
     justify-content: center;
+    background-color: rgb(253, 232, 213);
   }
   .fact-number{
     font-size: 2.8rem;
@@ -167,9 +173,9 @@ main > section{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
   }
-  .sponsor-companies img{
+  /* .sponsor-companies img{
     filter: grayscale(100%);
-  }
+  } */
 
   /* Features sections related styles */
 
@@ -212,6 +218,16 @@ main > section{
     width: 100%;
   }
 
+  /* footer section styles */
+
+  .footer-text{
+    text-align: center;
+    padding: 20px 410px;
+    border-radius: 8px;
+    margin-top: 130px;
+    margin-bottom: 216px;
+  }
+
   /* responsive media query */
   /* Small size device */
   @media screen and (max-width:576px){
@@ -246,8 +262,12 @@ main > section{
       margin-left: 20px;
     }
     #experience-badge{
-      margin-top: 20px;
-      margin-left: 20px;
+      margin-top: -3px;
+      margin-left: 28px;
+    }
+    .footer-text{
+      text-align: center;
+      padding: 20px 20px;
     }
   }
 
@@ -282,6 +302,10 @@ main > section{
     #experience-badge{
       margin-top: -200px;
       margin-left: 270px;
+    }
+    .footer-text{
+      text-align: center;
+      padding: 20px 20px;
     }
     
   }
