@@ -263,7 +263,7 @@ main > section{
     }
     #experience-badge{
       margin-top: -3px;
-      margin-left: 18px;
+      margin-left: auto;
     }
     .footer-text{
       text-align: center;
@@ -301,7 +301,7 @@ main > section{
     }
     #experience-badge{
       margin-top: -100px;
-      margin-left: 250px;
+      margin-left: 200px;
     }
     .footer-text{
       text-align: center;
